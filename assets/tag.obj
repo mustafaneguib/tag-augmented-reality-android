@@ -1,0 +1,28 @@
+#Produced by Art of Illusion 2.8.1, Fri Aug 16 01:51:13 PKT 2013
+mtllib tag.mtl
+s 0
+g Spline_Mesh_1
+usemtl Untitled_1
+v -1 1 -0
+v 1 1 -0
+v -1 0 0
+v 1 -0 -0
+vt 0 0
+vt 1 0
+vt 0 1
+vt 1 1
+f 1/1 2/2 4/4
+f 1/1 4/4 3/3
+s 1
+g Spline_Mesh_2
+usemtl Untitled_1
+v 0 -1.05214 0
+v 0 -1.05214 0
+v -1 -0 0
+v 1 0 0
+vt 0.5 -0.02478
+vt 0.5 -0.02478
+vt 0 0.97522
+vt 1 0.97522
+f 5/5 6/6 8/8
+f 5/5 8/8 7/7

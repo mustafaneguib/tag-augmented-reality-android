@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/actionAugmentedReallity"
+        android:icon="@drawable/camera"
+        android:title="@string/actionAugmentedReallityView"
+        yourapp:showAsAction="always"/>
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/settings"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/about"/>
+    
+    <item
+        android:id="@+id/logOut"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/logOut"/>
+
+</menu>

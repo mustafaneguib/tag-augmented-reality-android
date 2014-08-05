@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">tagAR</string>
+    <string name="mnTechLogo">MN Tech Solutions</string>
+    <string name="mustafaNeguibLogo">Mustafa Neguib</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="empty"></string>
+    <string name="login">Login</string>
+    <string name="menu">Menu</string>
+    <string name="tagLocation">Tag Location</string>
+    <string name="viewYourTags">View Your Tags</string>
+    <string name="comment">Comment:</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit(Logout)</string>
+    <string name="userDoesNotExist">No user exists for the given login details. Please make sure that the details are correct or register a new acccount.</string>
+    <string name="about">About</string>
+    <string name="copyright1">COPYRIGHT 2008&#8211;2013 MN Tech Solutions</string>
+    <string name="copyright2">COPYRIGHT 2008&#8211;2013 Mustafa Neguib</string>
+    <string name="copyright">COPYRIGHT 2008&#8211;2013 Mustafa Neguib COPYRIGHT 2008&#8211;2013 MN Tech Solutions</string>
+    <string name="company">Software Company: MN Tech Solutions</string>
+    <string name="designerDeveloper">Designer &amp; Developer: Mustafa Neguib</string>
+    <string name="website">Website: tagar.mntechsolutions.net</string>
+    <string name="close">Close</string>
+    <string name="location">Location:</string>
+    <string name="distance">Distance:</string>
+    <string name="appVersion">Version: 3.0</string>
+    <string name="tagARLogo">tagAR Logo</string>
+    <string name="latitudeYour">Your Latitude:</string>
+    <string name="longitudeYour">Your Longitude:</string>
+    <string name="locationYour">Your Location:</string>
+    <string name="accuracyYour">Accuracy:</string>
+    <string name="license">License: GNU GPL Version 3</string>
+    <string name="website1">Project Code: github.com/mustafaneguib/tagAR</string>
+    <string name="accuracyOfTag">Accuracy of tag:</string>
+    <string name="imageTag">Image of the Tag</string>
+    <string name="downloadImages">Allow to download tag images and take pictures?</string>
+    <string name="latestNews">Latest News</string>
+    <string name="latestNews1">None at the moment.</string>
+    <string name="showTips">Show textual tips?</string>
+    <string name="description">tagAR (pronounced as "tag" as in the word tag and AR as "ai" and "are". The letters AR are to be pronounced the way the letters A and R are pronounced.) is an augmented reality tagging application developed for the Android Operating System (at the moment). To make things better, we have decided to release this app as an Open Source app under the GNU GENERAL PUBLIC LICENSE Version 3. tagAR allows you to tag locations in real time and at the same time see tags posted by other users. This app encourages social networking between users from all walks of life. They can tag their favorite locations and post a comment about the location. Then anyone near that tag can see it in the screen of their mobile device.</string>
+    <string name="shortDescription">tagAR is an augmented reality tagging application.</string>
+    <string name="app_id">485812771493413</string>
+    <string name="logOut">Log Out</string>
+    <string name="nearByTags">Near By Tags</string>
+    <string name="actionAddNewTag">Add New Tag</string>
+    <string name="actionAugmentedReallityView">Augmented Reallity View</string>
+    <string name="actionRefresh">Refresh</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="map">Map</string>
+    <string name="google_api_key">AIzaSyAs_eGIuHFBO_GE0A4udQS2y5pzgbuKcIE</string>
+    <string name="actionMap">Map View</string>
+    <string name="myTags">My Tags</string>
+    <string name="friendTags">My Friend\'s Tags</string>
+    <string name="pleaseWaitText">Please wait...We are logging you in...</string>
+
+</resources>
