@@ -22,5 +22,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-You can contact the core development of tagAugmentedReality SDK at the following:
+You can contact the core development of tagAugmentedReality SDK at the following and ask us any question
+related to the SDK.
+
+mustafaneguib@mntechsolutions.net
+sales@mntechsolutions.net
+Google Group https://groups.google.com/forum/#!forum/tag-augmented-reality-sdk
 

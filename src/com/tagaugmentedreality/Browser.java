@@ -28,19 +28,14 @@ package com.tagaugmentedreality;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.math.BigDecimal;
 import java.util.List;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
 import android.annotation.SuppressLint;
-import android.app.AlarmManager;
-import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.graphics.Color;
 import android.graphics.PixelFormat;
 import android.hardware.Camera;
@@ -51,7 +46,6 @@ import android.hardware.SensorManager;
 import android.opengl.GLSurfaceView;
 import android.opengl.GLU;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -61,11 +55,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.view.ViewGroup.LayoutParams;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.tagaugmentedreality.cache.CameraDataCache;
 import com.tagaugmentedreality.cache.CombinedTagListCache;
@@ -293,51 +285,7 @@ public class Browser extends ActionBarActivity implements
 
 				// Log.e(Utilities.TAG,
 				// CombinedTagListCache.getCombinedList().get(i).getLatitude()+","+CombinedTagListCache.getCombinedList().get(i).getLongitude()+" "+CombinedTagListCache.getCombinedList().get(i).getOpenGLModel().getVector()[0]+","+CombinedTagListCache.getCombinedList().get(i).getOpenGLModel().getVector()[1]+","+CombinedTagListCache.getCombinedList().get(i).getOpenGLModel().getVector()[2]+","+CombinedTagListCache.getCombinedList().get(i).getOpenGLModel().getVector()[3]+","+CombinedTagListCache.getCombinedList().get(i).getOpenGLModel().getVector()[4]+","+CombinedTagListCache.getCombinedList().get(i).getOpenGLModel().getVector()[5]);
-
-				/*
-				 * if (diffBearing < 45f || diffBearing > 315f) { // do the
-				 * animation only when the camera is within range of // the tag.
-				 * // if the device is suddenly jerked to another position, //
-				 * then the // tag will move out of the screen by using the
-				 * animation // below.
-				 * 
-				 * if (oneSecondPassed) { if ((bearing - oldBearing) > 0) {//
-				 * left
-				 * 
-				 * int diff = (int) Math.abs(bearing - oldBearing);
-				 * 
-				 * cameraData.resetToIdentity(); cameraData.rotation(2, -diff);
-				 * cameraData.updateXYZ(); cameraData.resetToIdentity();
-				 * 
-				 * }// end if else if ((bearing - oldBearing) < 0) {// right int
-				 * diff = (int) Math.abs(bearing - oldBearing);
-				 * 
-				 * cameraData.resetToIdentity(); cameraData.rotation(2, diff);
-				 * cameraData.updateXYZ(); cameraData.resetToIdentity();
-				 * 
-				 * }// end else if else {// still
-				 * 
-				 * }// end else
-				 * 
-				 * }// end if }// end if
-				 */
-				/*
-				 * if ((pitch - oldPitch) > 0) {// down
-				 * 
-				 * int diff = (int) Math.abs(pitch - oldPitch);
-				 * cameraData.resetToIdentity(); cameraData.rotation(1, -diff);
-				 * cameraData.updateXYZ(); cameraData.resetToIdentity();
-				 * 
-				 * }// end if else if ((pitch - oldPitch) < 0) {// up
-				 * 
-				 * int diff = (int) Math.abs(pitch - oldPitch);
-				 * cameraData.resetToIdentity(); cameraData.rotation(1, diff);
-				 * cameraData.updateXYZ(); cameraData.resetToIdentity();
-				 * 
-				 * }// end else if else {// still
-				 * 
-				 * }// end else
-				 */
+				
 				/**
 				 * When i rotated the tags around the origin, for some reason
 				 * the tags also rotated about their centers by the amount they
